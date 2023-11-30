@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Questrial&display=swap');
+
+
 .header{
     background-image:  linear-gradient(to right, #1E90FF, #00008B);
     width: 100%;
@@ -6,6 +9,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 48px;
+    font-family: 'Questrial', sans-serif;
+
 }
 
 /*width: 360px

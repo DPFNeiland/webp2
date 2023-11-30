@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+input{
+    background: none;
+    color: var(--white);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    width: 80%;
+}
+
+::placeholder {
+    color: var(--white);
+    opacity: 1; /* Firefox */
+}
+
+
+.divcheck{
+    align-self: flex-start;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.divcheck a{
+    display: block;
+
+}
+
+.inputcheck{
+    display: inline;
+    display: flex;
+}
+
+.menor{
+    width: 20px;
+   
+}
+
+.subdiv{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 8.536rem;
+}
